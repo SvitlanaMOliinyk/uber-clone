@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+i{
+    font-size: 2rem;
+}
+
+.cover{
+    background: url(
+https://www.uber-assets.com/image/upload/v1613106985/assets/0e/47aa71-35cb-459a-a975-78c61ea300e2/original/HP-U4B-NYC-bkg.png
+);
+background-position: center center;
+    background-size: cover; 
+}
+
+.cover .content{
+    height: 100%;
+    width: 100%;
+    padding-top: 15vmin;
+    padding-left: 15vmin;
+   color: rgba(0, 0, 0, 1)
+}
+
+.section-3{
+    background-color: #F6F6F6;
+}
+
+.section-3 .download .d-flex .two{
+   
+border: 1px solid gray;
+}
+
+.section-3 .download .d-flex .two > h3{
+    margin-left: 2rem;
+}
+
+footer{
+    background-color: #000000;
+}
+
+.low{
+    font-size: small;
+}
+.low i{
+    font-size: medium;
+}
+
+
+.google, .appl{ 
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: small;
+    line-height: 1;
+    align-items: left;
+}
+
+.navbar{
+    background-color: black;
+   height: 10vh;
+
+}
+
+.card{
+    border-radius: 1px;
+    margin-top: 10vh;
+    margin-left: 10vw;
+width: 40%;
+height: 80%;
+}
+.card .nav-item{
+display: flex;
+direction: column;
+}
+
+.card-header .nav-item:hover{
+    border-bottom: 2px solid black;
+}
+
+.card-link{
+    text-decoration: none;
+    padding-bottom: 2px;
+    padding-top: 20px;
+    display: block;
+    position: relative;
+}
+
+.card-link::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: 1px solid gray;
+    width: 65%;
+ }
+
+ .nav-item .btn{
+    border-radius: 20px;
+ }
+
+ .navbar .nav-item:hover{
+    border: 1px solid transparent;
+    background-color: #333333;
+    border-radius: 20px;
+ }
+
+ .brand .nav-link:hover{
+    padding-bottom: 10px ;
+    position: relative;
+ }
+ .brand .nav-link:hover::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: 2px solid white;
+    width: 30%;
+ }
