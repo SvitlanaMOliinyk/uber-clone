@@ -56,20 +56,18 @@ footer{
     line-height: 1;
     align-items: left;
 }
-
-.navbar{
-    background-color: black;
-   height: 10vh;
-
+.back{
+    height: 90vmin;
+    background: url(https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_874,h_656/v1653688539/assets/ae/d8db42-6e67-4c9e-9741-1c7503a1983c/original/DotCom_Update_Earner_bg_sml2x.jpg);
+    background-position: center;
+    background-size: cover; 
 }
 
 .card{
-    border-radius: 1px;
-    margin-top: 10vh;
-    margin-left: 10vw;
-width: 40%;
-height: 80%;
+    top: 10vmin;
+left: 5vmin;   
 }
+
 .card .nav-item{
 display: flex;
 direction: column;
@@ -118,3 +116,47 @@ direction: column;
     border-bottom: 2px solid white;
     width: 30%;
  }
+
+ .navbar-toggler-icon{
+    color: wight;
+ }
+
+
+
+@media screen and (max-width: 500px) {
+    .section-2 .row{
+        width: 90vw;
+        margin:auto;
+    }
+    .card{
+    top: 0;
+    left: 0;
+    width: 100%; 
+    padding: 0;
+    height: 40%; 
+    }
+    
+    .card .nav-link{
+        font-size: small;
+    }
+    .card-header{
+        padding: 0;
+    }
+    .card-header .nav-link > i{
+     font-size: small;
+    }
+
+    .card-body{
+        padding-left: 2px;
+        padding-top: 0; 
+    }
+
+    .card-body > p, .btn, .card-link {
+        font-size: small;
+    }
+
+    .card-body > h1{
+        margin: 0;
+    }
+
+}
